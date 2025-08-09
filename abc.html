@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shiksha Bhattarai | Data Scientist</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #b3d9ff, #e6f0ff);
+    color: #1b2a41;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: rgba(255 255 255 / 0.6);
+    border-radius: 16px;
+    backdrop-filter: saturate(180%) blur(12px);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.1);
+    animation: fadeIn 1s ease forwards;
+  }
+  header {
+    text-align: center;
+    padding: 3rem 1rem 1rem;
+  }
+  header h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 0.3rem;
+    letter-spacing: 1.2px;
+    animation: slideDown 0.8s ease forwards;
+  }
+  header p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 2rem;
+    animation: slideDown 1s ease forwards;
+  }
+  nav {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  nav a {
+    color: #3b5998;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    position: relative;
+  }
+  nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #3b5998;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+  }
+  nav a:hover::after {
+    width: 100%;
+  }
+  section {
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #85aaff;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+    animation: fadeInUp 1s ease forwards;
+  }
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+  }
+  ul.skills-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 12px;
+  }
+  ul.skills-list li {
+    background: #cce5ff;
+    color: #1b2a41;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.08);
+    transition: transform 0.2s ease;
+  }
+  ul.skills-list li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgb(0 0 0 / 0.12);
+  }
+  footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #7faaffcc;
+    color: #1b2a41;
+    font-weight: 600;
+    border-radius: 0 0 16px 16px;
+    user-select: none;
+  }
+  a.email-link {
+    color: #3b5998;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  a.email-link:hover {
+    text-decoration: underline;
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Shiksha Bhattarai</h1>
+  <p>Data Scientist & Problem Solver | Kathmandu University</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m <strong>Shiksha Bhattarai</strong>, a passionate Data Science student at Kathmandu University. My academic foundation includes <em>Data Structures, Algorithms, Python, R, Calculus, Linear Algebra, Statistics & Probability, and Artificial Intelligence</em>.</p>
+    <p>I thrive on applying advanced calculus and multivariable analysis to complex datasets, turning data into actionable insights that solve real-world problems. I am driven by curiosity and a commitment to bridging theoretical knowledge with practical impact.</p>
+    <p>Outside academics, I enjoy expressing creativity through graphic design and social media management, helping brands connect with audiences effectively.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Python & R Programming</li>
+      <li>Data Structures & Algorithms</li>
+      <li>Statistics & Probability</li>
+      <li>Linear Algebra & Calculus</li>
+      <li>Multivariable Calculus Applications</li>
+      <li>Artificial Intelligence</li>
+      <li>Graphic Designing</li>
+      <li>Social Media Management</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>(You can add your key projects here — for example, data analysis, AI models, visualization dashboards, etc.)</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a class="email-link" href="mailto:shiksha@example.com">shiksha@example.com</a></p>
+    <p>Location: Kathmandu, Nepal</p>
+  </section>
+</div>
+
+<footer>
+  <p>© 2025 Shiksha Bhattarai .Have a good day</p>
+</footer>
+
+</body>
+</html>
